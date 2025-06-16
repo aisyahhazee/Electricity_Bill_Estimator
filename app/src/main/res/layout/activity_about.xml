@@ -5,13 +5,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:gravity="center_horizontal"
     android:background="@color/backgroundColor">
+
+    <!-- Circle Image -->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="169dp"
+        android:layout_height="170dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/circle_background"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profilephoto" />
 
     <TextView
         android:id="@+id/aboutTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="About This App"
+        android:text="@string/about_title"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="@color/primaryColor"
@@ -22,7 +34,7 @@
         android:id="@+id/textName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Full Name: Aisyah Hazeerah Binti Kamala Azmi"
+        android:text="@string/full_name"
         android:textSize="16sp"
         android:textColor="@color/textPrimary"
         android:layout_marginBottom="10dp" />
@@ -31,7 +43,7 @@
         android:id="@+id/textStudentID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Student ID: 2023189329"
+        android:text="@string/student_id"
         android:textSize="16sp"
         android:textColor="@color/textPrimary"
         android:layout_marginBottom="10dp" />
@@ -40,7 +52,7 @@
         android:id="@+id/textCourse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Course: CSC577 Mobile Technology"
+        android:text="@string/course"
         android:textSize="16sp"
         android:textColor="@color/textPrimary"
         android:layout_marginBottom="10dp" />
@@ -49,7 +61,7 @@
         android:id="@+id/textCopyright"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="© 2025 Nurul Natasha. All rights reserved."
+        android:text="@string/copyright"
         android:textSize="16sp"
         android:textColor="@color/textSecondary"
         android:layout_marginBottom="20dp" />
@@ -58,16 +70,13 @@
         android:id="@+id/textGitHub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="https://github.com/nurulnatasha/electricity-bill-estimator"
+        android:text="@string/github_url"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="16sp"
         android:autoLink="web"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_gravity="start"
+        android:textStyle="bold"
         android:textIsSelectable="true"
-        android:linksClickable="true"
-        android:textAlignment="viewStart"
-        android:textStyle="bold" />
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
 
 </LinearLayout>

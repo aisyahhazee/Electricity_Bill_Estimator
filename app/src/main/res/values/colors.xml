@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primaryColor">#2E7D32</color> <!-- Dark green -->
+    <color name="primaryColor">#5D4037</color> <!-- Dark brown -->
     <color name="backgroundColor">#F5F5F5</color>
     <color name="cardColor">#FFFFFF</color>
     <color name="textPrimary">#000000</color>

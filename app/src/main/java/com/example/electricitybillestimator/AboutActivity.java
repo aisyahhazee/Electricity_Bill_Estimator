@@ -11,6 +11,6 @@ public class AboutActivity extends AppCompatActivity {
         setContentView(R.layout.activity_about);
 
         TextView github = findViewById(R.id.textGitHub);
-        github.setText("https://github.com/nurulnatasha/electricity-bill-estimator"); // Replace with your real link
+        github.setText("https://github.com/aisyahhazee/Electricity_Bill_Estimator");
     }
 }

@@ -19,4 +19,10 @@
     <string name="final_cost">Final Cost After Rebate: RM 0.00</string>
     <string name="view_history_button">View History</string>
     <string name="about_button">About</string>
+
+    <string name="home_welcome">Welcome to Electricity Bill Estimator</string>
+    <string name="start_estimating">Start Estimating</string>
+    <string name="go_to_about">About</string>
+    <string name="go_to_history">View History</string>
+
 </resources>
