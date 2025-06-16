@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:id="@+id/aboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About This App"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryColor"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name: Aisyah Hazeerah Binti Kamala Azmi"
+        android:textSize="16sp"
+        android:textColor="@color/textPrimary"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/textStudentID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student ID: 2023189329"
+        android:textSize="16sp"
+        android:textColor="@color/textPrimary"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/textCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course: CSC577 Mobile Technology"
+        android:textSize="16sp"
+        android:textColor="@color/textPrimary"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/textCopyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© 2025 Nurul Natasha. All rights reserved."
+        android:textSize="16sp"
+        android:textColor="@color/textSecondary"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/textGitHub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://github.com/nurulnatasha/electricity-bill-estimator"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp"
+        android:autoLink="web"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="start"
+        android:textIsSelectable="true"
+        android:linksClickable="true"
+        android:textAlignment="viewStart"
+        android:textStyle="bold" />
+
+</LinearLayout>

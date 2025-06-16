@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Electricity Bill Estimator</string>
+
+    <!-- About Activity Strings -->
+    <string name="about_title">About This App</string>
+    <string name="full_name">Full Name: Aisyah Hazeerah Binti Kamala Azmi</string>
+    <string name="student_id">Student ID: 2023189329</string>
+    <string name="course">Course: ICT602 Mobile Technology and Development</string>
+    <string name="copyright">© 2025 Nurul Natasha. All rights reserved.</string>
+    <string name="github_url">https://github.com/nurulnatasha/electricity-bill-estimator</string>
+    <string name="github_link_text">Visit GitHub Repository</string>
+
+    <!-- Main Activity Strings -->
+    <string name="select_month_label">Select Month:</string>
+    <string name="enter_units_hint">Enter units (kWh)</string>
+    <string name="enter_rebate_hint">Enter rebate (%)</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="total_charges">Total Charges: RM 0.00</string>
+    <string name="final_cost">Final Cost After Rebate: RM 0.00</string>
+    <string name="view_history_button">View History</string>
+    <string name="about_button">About</string>
+</resources>
